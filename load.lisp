@@ -1,6 +1,6 @@
 (in-package :cl-user)
 
-(define-lw-system crypto ()
+(define-lw-system lw-crypto ()
   (:file "package")
   (:file "base64" :depends-on "package")
   (:file "sha256" :depends-on "package")
