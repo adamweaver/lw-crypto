@@ -9,3 +9,7 @@
 (defpackage :md5
   (:use :cl)
   (:export "CRAM-MD5" "MD5-DIGEST-HEX" "MD5-HMAC-HEX"))
+
+(defpackage :zlib
+  (:use :cl :fli)
+  (:export "COMPRESS" "DECOMPRESS"))
